@@ -50,3 +50,31 @@ A simple Laravel-based task manager built as a mini project applying Routes → 
     cp .env.example .env
     php artisan key:generate
     ```
+4. **Configure Database:**
+   Open `.env` in Zed Editor and update your database credentials:
+    ```env
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=task_manager
+    DB_USERNAME=root
+    DB_PASSWORD=
+    ```
+5. **Run Migrations:**
+    ```bash
+    php artisan migrate
+    ```
+6. **Start Local Server:**
+    ```bash
+    php artisan serve
+    ```
+
+Access the app at: `http://127.0.0.1:8000/tasks`
+
+---
+
+## Screenshots
+
+![Task List Output](assets/task-list.png)
+![Add Task Form](assets/add-task.png)
+![Edit Task Form](assets/edit-task.png)
