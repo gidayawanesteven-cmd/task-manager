@@ -2,13 +2,18 @@
 
 A simple Laravel-based task manager built as a mini project applying Routes → Controller → Model → Database → Blade.
 
-**Project Code:** WST21-PM-2026-SF
-**Student Name:** [Your Full Name]
-**Course & Year:** [e.g. BS Computer Engineering, 2nd Year]
-**Database Used:** MySQL
-**IDE Used:** Zed
+| Field           | Detail               |
+| :-------------- | :------------------- |
+| _Project Code_  | WST21-PM-2026-SF     |
+| _Student Name_  | Esteven L. Gidayawan |
+| _Course & Year_ | BSIT-2               |
+| _Database Used_ | MySQL                |
+| _IDE Used_      | Zed Editor           |
+
+---
 
 ## Features
+
 - Add Task
 - View Tasks
 - Edit Task
@@ -16,23 +21,32 @@ A simple Laravel-based task manager built as a mini project applying Routes → 
 - Update Status (Pending / Completed)
 
 ## Bonus Features
+
 - Dashboard-style stat cards (Total, Pending, Completed counts)
 - Custom design theme with icons (Bootstrap Icons)
 
 ## Tech Stack
-- Laravel
-- Blade templating
-- Bootstrap 5
-- MySQL
-- Zed Editor
+
+- _Framework:_ Laravel
+- _Frontend:_ Blade Templating, Bootstrap 5, Bootstrap Icons
+- _Database:_ MySQL
+- _Editor:_ Zed
+
+---
 
 ## Setup Instructions
-1. Clone this repository
-2. Run `composer install`
-3. Copy `.env.example` to `.env` and run `php artisan key:generate`
-4. Set your database credentials in `.env`
-5. Create the database, then run `php artisan migrate`
-6. Run `php artisan serve` and visit `http://localhost:8000/tasks`
 
-## Screenshots
-_(Add screenshots of the task list, add form, and edit form here)_
+1. _Clone the repository:_
+    ```bash
+    git clone https://github.com/gidayawanesteven-cmd/task-manager.git
+    cd task-manager
+    ```
+2. **Install PHP dependencies:**
+    ```bash
+    composer install
+    ```
+3. **Set up environment configuration:**
+    ```bash
+    cp .env.example .env
+    php artisan key:generate
+    ```
