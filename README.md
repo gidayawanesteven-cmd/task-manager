@@ -3,8 +3,8 @@
 A simple Laravel-based task manager built as a mini project applying Routes → Controller → Model → Database → Blade.
 
 **Project Code:** WST21-PM-2026-SF
-**Student Name:** [Your Full Name]
-**Course & Year:** [e.g. BS Computer Engineering, 2nd Year]
+**Student Name:** Esteven L. Gidayawan 
+**Course & Year:** BSIT-2 
 **Database Used:** MySQL
 **IDE Used:** Zed
 
